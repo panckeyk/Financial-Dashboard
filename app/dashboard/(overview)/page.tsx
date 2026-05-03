@@ -9,6 +9,11 @@ import {
   LatestInvoicesSkeleton,
   CardSkeleton,
 } from "@/app/ui/skeletons";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Dashboard",
+};
 
 // The page is an async server component. This allows you to use await to fetch data.
 export default async function Page() {
